@@ -6,11 +6,10 @@ let obj = {
 
    for (let key in obj) {
     if (key == 'Tbilisi') {
-        console.log(key)  
+        console.log(key +  " " +  'is' + " " + obj.Tbilisi)  
     }
 }
-let show = ` is ${obj.Tbilisi} `;
-console.log(show);
+
 
 
         
